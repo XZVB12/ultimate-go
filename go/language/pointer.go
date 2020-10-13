@@ -92,7 +92,7 @@ func stayOnStack() user {
 	// In the stayOnStack stack frame, create a value and initialize it.
 	u := user{
 		name:  "Hoanh An",
-		email: "hoanhan@bennington.edu",
+		email: "hoanhan101@gmail.com",
 	}
 
 	// Take the value and return it, pass back up to main stack frame.
@@ -134,7 +134,7 @@ func stayOnStack() user {
 func escapeToHeap() *user {
 	u := user{
 		name:  "Hoanh An",
-		email: "hoanhan@bennington.edu",
+		email: "hoanhan101@gmail.com",
 	}
 
 	return &u
@@ -145,7 +145,7 @@ func escapeToHeap() *user {
 // ----------------------------------
 
 // What happens next is during that function call, there is a little preamble that asks "Do we have
-// enough stack space for this frame?". If yes then no problem because at complie time we know
+// enough stack space for this frame?". If yes then no problem because at compile time we know
 // the size of every frame. If not, we have to have bigger frame and these values need to be copied
 // over. The memory on that stack moves. It is a trade off. We have to take the cost of this copy
 // because it doesn't happen a lot. The benefit of using less memory in any Goroutine outweighs the

@@ -1,4 +1,4 @@
-# Ultimate Go study guide
+# The Ultimate Go Study Guide
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/hoanhan101/ultimate-go)
 ](https://goreportcard.com/report/github.com/hoanhan101/ultimate-go)
@@ -9,26 +9,44 @@
 [![r/compsci](https://img.shields.io/badge/r/compsci-60%2B-orange)](https://www.reddit.com/r/compsci/comments/cr3jzh/ultimate_go_study_guides_with_heavily_documented/)
 [![r/programming](https://img.shields.io/badge/r/programming-40%2B-orange)](https://www.reddit.com/r/programming/comments/cr3gqu/ultimate_go_study_guides_with_heavily_documented/)
 
+> [The Ultimate Go Study Guide eBook version →](https://gum.co/bpUYF)
+
 > [101+ coding interview problems with detailed solutions, test cases, and program analysis →](https://github.com/hoanhan101/algo)
 
-> [Join my mailing list to get the latest updates here →](https://tinyletter.com/hoanhan)
+> [Join my mailing list to get the latest updates here →](https://mailchi.mp/579f9d6927dd/hoanhanco)
 
 <p align="center">
   <img src="gopher.png" alt="gopher" width="300"/>
 </p>
 
-## Motivation
+## Context
 
-This repo contains my notes on learning Go and computer systems. Different people have different
-learning style. For me, I learn best by doing and walking through examples. Hence, I am trying to
-take notes carefully and comment directly on the source code, rather than writing up Markdown
-files. That way, I can understand every single line of code as I am reading and also be mindful of
-the theories behind the scene.
+> Last updates is on August 2020.
 
-In the mix, I also include links to other articles that I find helpful.
+A year ago, in August 2019, I shared this Ultimate Go Study Guide project on GitHub, and surprisingly, it got a lot of attention from the community.
+Fast forward to August 2020, it now has over 11K stars, 900 forks with the help of more than 20 contributors.
 
-If you’re interested in getting updates for this, feel free to join my [mailing 
-list here →](https://tinyletter.com/hoanhan)
+The project is a collection of my notes while learning Go programming language from [Ardan Labs's Ultimate Go course](https://www.oreilly.com/library/view/ultimate-go-programming/9780134757476/).
+Honestly, I couldn’t thank Bill Kennedy and the Ardan Labs team enough for open-sourcing this wonderful material. They’ve done such great jobs putting together their knowledge, insights into their courses and making them available to the public.
+
+Different people have different learning styles. For me, I learn best by doing and walking through examples.
+That said, I take notes carefully, comment directly on the source code to make sure that I understand every single line
+of code as I am reading and also be mindful of the theories behind the scene.
+
+As Ultimate Go Study Guide keeps growing, there’s one issue that keeps coming up. That’s about the format of the project. Specifically,
+many people have requested an eBook version where the content is more streamlined and they can read it at their convenience.
+
+So, here comes The Ultimate Go Study Guide eBook version. For the last 3 months or so, I have spent most of my free time putting together
+everything here into a 200-page book. Other than all the good stuff from Ultimate Go, two new and better things in this version are:
+- Follow-along code input and output.
+- Diagrams.
+
+Hope it makes your journey of learning Go a bit easier. And again, thank you all for your support. I really appreciate it.
+
+**Here’s the link for the book: <https://gum.co/bpUYF>.**
+
+Note that I’ve made it free, though I would really appreciate your support.
+Regardless, you will receive the book in 2 different formats: PDF and ePub.
 
 ## Table of Contents 
 
@@ -142,7 +160,7 @@ list here →](https://tinyletter.com/hoanhan)
     - Stack Trace: [Review](go/profiling/stack_trace_1.go) | [Packing](go/profiling/stack_trace_2.go)
     - GODEBUG: [Memory Tracing](go/profiling/memory_tracing.go)
 
-## For more resources:
+## References & resources:
 
 - [Ultimate Go Programming](https://www.safaribooksonline.com/library/view/ultimate-go-programming/9780134757476/)
 - [ardanlabs/gotraining/topics/courses/go](https://github.com/ardanlabs/gotraining/blob/master/topics/courses/go/README.md)

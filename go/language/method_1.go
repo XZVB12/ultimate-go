@@ -21,6 +21,7 @@ func (u user) notify() {
 // Using the pointer receiver, the method operates on shared access.
 func (u *user) changeEmail(email string) {
 	u.email = email
+	fmt.Printf("Changed User Email To %s\n", email)
 }
 
 // These 2 methods above are just for studying the difference between a value receiver and a
@@ -40,7 +41,7 @@ func main() {
 	// Pointers of type user can also be used to call methods declared with both value and pointer receiver.
 	hoanh := &user{"Hoanh", "hoanhan@email.com"}
 	hoanh.notify()
-	hoanh.changeEmail("hoanhan@bennington.edu")
+	hoanh.changeEmail("hoanhan101@gmail.com")
 
 	// hoanh in this example is a pointer that has the type *user. We are still able to call notify.
 	// This is still correct. As long as we deal with the type user, Go can adjust to make the call.
